@@ -44,7 +44,7 @@ function handleImageError() {
                     <div
                      class="flex lg:col-start-2 lg:justify-center">
                      
-                     <h1 class="text-4xl font-extrabold mx-2 my-2 text-gray-200" >Ravi Pratap Hello </h1>
+                     <h1 class="text-4xl font-extrabold mx-2 my-2 text-gray-200" >Ravi Pratap Hello</h1>
 
                         <svg
                             class="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]"
