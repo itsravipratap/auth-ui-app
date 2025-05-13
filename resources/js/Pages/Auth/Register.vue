@@ -24,6 +24,17 @@ const submit = () => {
     <GuestLayout>
         <Head title="Register" />
 
+        <div class="my-5 space-y-1">
+            <h1 class="text-2xl flex justify-center font-bold"
+                >Already have an acoount?</h1
+            >
+            <Link
+                href="/login"
+                class="no-underline text-sm flex justify-center text-blue-700 dark:text-blue-500 hover:text-blue-600 cursor-pointer font-bold"
+                >Login</Link
+            >
+        </div>
+
         <form @submit.prevent="submit">
             <div>
                 <InputLabel for="name" value="Name" />
